@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&family=Monoton&display=swap');
+
+body {
+	background-color: #dfe6e9;
+	margin:0;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	height: 100vh;
+	font-family: 'Comfortaa', cursive;
+}
+
+main form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+main h1 {
+	font-family: 'Monoton', cursive;
+	font-size: 8rem;
+	font-weight: 300;
+	color: #636e72;
+	margin: 20px 0 40px 0;
+	line-height: 7rem;
+
+}
+
+main form h2{
+	margin-bottom: 0;
+	font-size:2rem;
+}
+
+main form h3{
+	margin-bottom: 10px;
+	font-size:1.2rem;
+	align-self: flex-start;
+}
+
+main form section {
+	display: inherit;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 18rem;
+}
+
+.col {
+	flex-direction: column;
+}
+
+.col-50 {
+	width: 50%;
+}
+.col-50:nth-child(even) {
+	margin-left: 20px;
+  }
+
+.row {
+	flex-direction: row;
+}
+
+form .form-control {
+	margin: 0.4rem 0;
+	display: flex;
+	width: 100%;
+}
+
+form .form-control label{
+	display: block;
+	font-size: 0.8rem;
+	margin-bottom: 0.2rem;
+}
+
+form .form-control label.inline {
+	display: inline;
+}
+
+input[type=text], input[type=password]{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-sizing: border-box;
+  }
+
+  .fas {
+	  margin-right: 0.4rem;
+  }
+
+  
+
+  

@@ -12,12 +12,17 @@
 		<h1>Formfillers!</h1>
 		<form>
 			<section>
-				<h3>Registrering</h3>
+				<h2>Registrering</h2>
+				<h3>Adress</h3>
 				<article class="form-control row">
-					<label for="firstname"><i class="fas fa-user"></i>Förnamn</label>
-					<input type="text" name="firstname" id="firstname" placeholder="Johan" required>
-					<label for="lastname">Efternamn</label>
-					<input type="text" name="lastname" id="lastname" placeholder="Johansson" required>
+					<div class="col-50">
+						<label for="firstname"><i class="fas fa-user"></i>Förnamn</label>
+						<input type="text" name="firstname" id="firstname" placeholder="Johan" required>
+					</div>
+					<div class="col-50">
+						<label for="lastname">Efternamn</label>
+						<input type="text" name="lastname" id="lastname" placeholder="Johansson" required>
+					</div>
 				</article>
 				<article class="form-control col">
 					<label for="adr"><i class="fas fa-address-card"></i>Gata</label>
@@ -26,6 +31,13 @@
 					<input type="text" name="city" id="city" placeholder="Stadsberga" required>
 					<label for="zip">Postnummer</label>
 					<input type="text" name="zip" id="zip" placeholder="123 45" required>
+				</article>
+			</section>
+			<section>
+				<h3>Skapa lösenord</h3>
+				<article class="form-control col">
+					<label for="pwd"><i class="fas fa-key"></i>Lösenord</label>
+					<input type="password" name="pwd" id="pwd" required>
 				</article>
 			</section>
 		</form>
